@@ -64,23 +64,10 @@ def main():
 
                 ## calculate steering adn throttle based on number of 
                 steering, throttle = image_functions.getSteeringAndThrottleFromImage(orig_frame, colorclassifier, t)
-
-                steering_val.append(steering)
-                throttle_val.append(throttle)
-            
-            # finds average value to input into VESC
-            steering_avg = sum(steering_val)/instances
-            throttle_avg = sum(throttle_val)/instances
-            print(steering_avg, throttle_avg)
             
 
             # Use VESC.run() to set steering and throttle
-            # carVESC.run(steering_avg,throttle_avg)
-
             carVESC.run(steering,throttle)
-
-            # reset steering and throttle vals
-            steering_val = []; throttle_val = []
 
 if __name__ == '__main__':
     main()
