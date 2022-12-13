@@ -12,7 +12,7 @@ https://youtu.be/ephBjfgTWhA
 
 # Project Overview 
 
-Trained a vehicle to drive until it detects an object that is either movable or immovable. If it is immovable, it will navigate around the object. If it is movable, it will stop until the movable object is no longer in range.
+Train a vehicle to drive until it detects an object that is either movable or immovable. If it is immovable, it will navigate around the object. If it is movable, it will stop until the movable object is no longer in range.
 
 ![image](https://user-images.githubusercontent.com/59634395/207244675-022f54e1-1556-47b2-bb5b-98217dabb3b0.png)
 
