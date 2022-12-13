@@ -26,6 +26,10 @@ Train a vehicle to drive until it detects an object that is either movable or im
 ![image](https://user-images.githubusercontent.com/59634395/207244869-3c7f0ef0-7008-4579-9187-efbad4ac7f68.png)
 ![image](https://user-images.githubusercontent.com/59634395/207244952-d64b235d-5281-41d7-9483-23dca541e885.png)
 
+# Software Implementation
+
+To find movable and immovable objects, we wrote two detectors, one for movable objects and one for immovable objects. The code changes steering and throttle based on the detected object. We used SKLearn to train a GDA color classifier using Supervised Learning among different labeled datasets. We used a model inference with a threshold to determine if an object is there and if they are a human or an immovable object. Since the camera cannot see the full human, we architectured lower-body detection to infer the lower body part of the human body. This model is more sensitive with moving legs. We also wrote trash bin detection to use for testing immovable object using masks and predictions. The model is trained with recognizing certain colors like dark blue or gray and then deciding if it’s an obstacle that can be avoided by checking the size of the marked area.
+
 # Demonstration Video
 
 https://youtu.be/M4I5mHzLiq4
