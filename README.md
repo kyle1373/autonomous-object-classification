@@ -30,3 +30,8 @@ Trained a vehicle to drive until it detects an object that is either movable or 
 
 https://youtu.be/M4I5mHzLiq4
 
+# How To Run
+
+Make sure you have all of the dependencies installed, then run...
+
+`python drive.py`
