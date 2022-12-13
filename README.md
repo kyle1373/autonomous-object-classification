@@ -1,10 +1,8 @@
 # Autonomous Object Classification
 
-Kyle Wade (ECE)
+By Kyle Wade (ECE), Ziye Liu (MAE), and Zhuolin Niu (MAE)
 
-Ziye Liu (MAE)
-
-Zhuolin Niu (MAE)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
 # Autonomous laps driven with DonkeyCar
 
