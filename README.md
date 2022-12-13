@@ -2,16 +2,13 @@
 
 By Kyle Wade (ECE), Ziye Liu (MAE), and Zhuolin Niu (MAE)
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
-
-# Autonomous laps driven with DonkeyCar
+# 3 autonomous laps driven with DonkeyCar
 
 https://youtu.be/FVNbY5uvjHg
 
-# Autonomous laps driven with OpenCV
+# 3 autonomous laps driven with OpenCV
 
 https://youtu.be/ephBjfgTWhA
-
 
 # Project Overview 
 
