@@ -1,6 +1,6 @@
 # Autonomous Object Classification
 
-By Kyle Wade (ECE), Ziye Liu (MAE), and Zhuolin Niu (MAE)
+By Kyle Wade (ECE), Ziye Liu (MAE), and Zhuolin Niu (MAE). Team 15 in ECE 148 at UC San Diego.
 
 # 3 autonomous laps driven with DonkeyCar
 
