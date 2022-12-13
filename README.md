@@ -1,8 +1,8 @@
 # ECE-148-Team-15
-# Team Members 
-### Kyle Wade (ECE)
-### Ziye Liu (MAE)
-### Zhuolin Niu (MAE)
+Team Members 
+Kyle Wade (ECE)
+Ziye Liu (MAE)
+Zhuolin Niu (MAE)
 
 # Autonomous laps driven with DonkeyCar
 
