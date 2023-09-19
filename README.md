@@ -1,18 +1,13 @@
-# Autonomous Object Classification
+# Project Overview:
+Leverage TensorFlow and OpenCV to design and implement a vehicle system that can drive autonomously, identify movable and immovable obstacles, and take appropriate actions when encountering them.
 
-By Kyle Wade (ECE), Ziye Liu (MAE), and Zhuolin Niu (MAE). Team 15 in ECE 148 at UC San Diego.
-
-# 3 autonomous laps driven with DonkeyCar
-
-https://youtu.be/FVNbY5uvjHg
-
-# 3 autonomous laps driven with OpenCV
-
-https://youtu.be/ephBjfgTWhA
-
-# Project Overview 
-
-Train a vehicle to drive until it detects an object that is either movable or immovable. If it is immovable, it will navigate around the object. If it is movable, it will stop until the movable object is no longer in range.
+## Key Features:
+### Object Detection:
+The system can differentiate between movable and immovable objects. This is crucial because the action the vehicle takes differs based on the nature of the obstacle.
+### Navigation:
+When the vehicle identifies an immovable object, it does not stop. Instead, it computes a new path to navigate around the obstacle, ensuring the vehicle's smooth movement.
+### Decision Making:
+For movable objects, the vehicle halts its progress. It remains stationary until the obstacle (for instance, a person walking) moves out of its path. Once the path is clear, the vehicle resumes its autonomous drive.
 
 ![image](https://user-images.githubusercontent.com/59634395/207244675-022f54e1-1556-47b2-bb5b-98217dabb3b0.png)
 
@@ -25,6 +20,14 @@ Train a vehicle to drive until it detects an object that is either movable or im
 ![image](https://user-images.githubusercontent.com/59634395/207244818-06fce14b-50aa-4358-9635-0933b3fe7b17.png)
 ![image](https://user-images.githubusercontent.com/59634395/207244869-3c7f0ef0-7008-4579-9187-efbad4ac7f68.png)
 ![image](https://user-images.githubusercontent.com/59634395/207244952-d64b235d-5281-41d7-9483-23dca541e885.png)
+
+# 3 autonomous laps driven with DonkeyCar (trained with TensorFlow)
+
+https://youtu.be/FVNbY5uvjHg
+
+# 3 autonomous laps driven with OpenCV
+
+https://youtu.be/ephBjfgTWhA
 
 # Software Implementation
 
@@ -39,3 +42,7 @@ https://youtu.be/M4I5mHzLiq4
 Make sure you have all of the dependencies installed, then run...
 
 `python drive.py`
+
+# Credits
+
+Kyle Wade, Ziye Liu, and Zhuolin Niu
